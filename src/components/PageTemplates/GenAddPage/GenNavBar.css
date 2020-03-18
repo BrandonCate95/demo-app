@@ -1,0 +1,6 @@
+.gen-edit-navbar{
+    position: sticky;
+    top:0;
+    background:grey;
+    z-index: 5;    
+}

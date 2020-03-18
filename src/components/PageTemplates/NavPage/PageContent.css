@@ -1,0 +1,6 @@
+.gen-pageContent{
+    width:100%;
+}
+.gen-pageContent.active{
+    width:calc(100% - 200px);
+}

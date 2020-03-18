@@ -1,0 +1,21 @@
+@import '../../App.scss';
+  
+  
+.search-page-img-container {
+    @include aspect-ratio(16,9);
+    // ...or by simple ratio
+    // @include aspect-ratio(1.777777778); 
+    background: lightblue;
+    img{
+        position: absolute;
+        max-height: 100%;
+        max-width: 100%;
+        height:auto;
+        width:auto;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+  }

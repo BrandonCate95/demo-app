@@ -1,0 +1,17 @@
+.btn-group {
+    padding: 5px;
+    border-right: 1px solid lightgrey;
+    height:100%;
+}
+
+table {
+    border-collapse: separate;
+}
+
+.btn-row {
+    display:block;
+}
+
+td {
+    text-align: center;
+}

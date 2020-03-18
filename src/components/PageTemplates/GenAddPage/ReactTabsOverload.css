@@ -1,0 +1,22 @@
+.react-tabs {
+    width: 100%;
+}
+
+.react-tabs__tab-list {
+    margin: 0;
+}
+
+.react-tabs__tab {
+    padding: 0 6px;
+    border-radius : 0;
+    color: white;
+    border-width: 2px;
+}
+
+.react-tabs__tab--selected {
+    background: rgb(55, 55, 99);
+}
+
+.react-tabs__tab-panel {
+    height: 75px;
+}

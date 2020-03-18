@@ -1,0 +1,25 @@
+.gen-sidebar{
+  position:sticky;
+  top:40px;
+  left:-200px;
+  width:200px;
+  height:calc(100vh - 40px);
+  background:lightgrey;
+  word-wrap:break-word;
+  overflow-y:auto;
+  transition: all 0.2s;
+  margin-left:-200px;
+  z-index:5;
+  display: inline-block;
+
+}
+.gen-sidebar.active{
+  margin-left:0px;
+  left:0;
+}
+.sidebarOverlay{
+  position:fixed;
+  display:none;
+  width:100%;
+  height:100%;
+}
